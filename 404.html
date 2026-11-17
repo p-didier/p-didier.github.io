@@ -1,0 +1,12 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Moved</title>
+<script>
+// GROOVE sites moved to the GROOVE-UiO org on 2026-11-17. Forward deep links, query and hash included.
+var moved = ["groove-pages", "paper-CAPs-pilot", "apc-listening", "rules-listening"];
+var first = location.pathname.split("/")[1];
+if (moved.indexOf(first) >= 0) {
+  location.replace("https://groove-uio.github.io" + location.pathname + location.search + location.hash);
+}
+</script>
+<p>Page not found. GROOVE pages now live at <a href="https://groove-uio.github.io/groove-pages/">groove-uio.github.io/groove-pages</a>.</p>
